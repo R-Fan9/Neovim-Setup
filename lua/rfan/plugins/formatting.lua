@@ -19,7 +19,7 @@ return {
 				lua = { "stylua" },
 				python = { "black" },
 				c = { "clang-format" },
-				["c++"] = { "clang-format" },
+				rust = { "rustfmt" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
